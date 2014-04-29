@@ -1,0 +1,24 @@
+ <FrameLayout
+     	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/FrameLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/coat" >
+
+		<ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/ic_launcher" />
+		<ImageView
+		    android:id="@+id/ImageView02"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+		    android:contentDescription="@string/icon"
+		    android:src="@drawable/ic_launcher" />
+
+</FrameLayout>
